@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@700&display=swap');
+:root {
+    --primary-color: #AAAAAA;
+    --secondary-color: #5D4A4A;
+    --accent1-color: #b3b3ff;
+    --accent2-color:#595959;
+    --heading-font: 'Roboto';
+    --paragraph-font:'Osawald';
+    --nav-background-color: #336699;
+    --nav-link-color:#23455c ;
+    --nav-hover-link-color: #b5d0e3 ;
+   --nav-hover-background-color: #0e1b25 ;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width:960px;
+    padding: 2px;
+}
+
+
+h1, h2, h3, h4, h5, h6, {
+    font-family: var(--heading-font)
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color) ;
+}
+
+p{
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color) ;
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration:none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color:var(--nav-link-color);
+}
+nav a: :hover{
+    color :var( --nav-hover-link-color);
+    background-color :var(--nav-hover-background-color);
+}
