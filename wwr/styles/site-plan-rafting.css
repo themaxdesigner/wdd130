@@ -17,8 +17,8 @@ body{
     padding: 2px;
 }
 
-h1, h2, h3, h4, h5, h6, {
-    font-family: var(--heading-font)
+h1 h2 h3 h4 h5 h6 {
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -44,7 +44,6 @@ nav a{
 nav a:link, nav a:visited{
     color:var(--nav-link-color);
 }
-nav a: :hover{
+nav a:hover{
     color :var( --nav-hover-link-color);
-    background-color :var(--nav-hover-background-color);
-}
+    background-color :var(--nav-hover-background-color); }
