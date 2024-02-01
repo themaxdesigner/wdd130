@@ -86,7 +86,7 @@ footer
     text-align: center;
 }
 
-header, footer,.grid{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
 }   
