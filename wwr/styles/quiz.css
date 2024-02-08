@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+  color: rgb(68, 68, 148); 
+  font-weight: bolder;
+  font-size: 2.5rem; 
+   text-align: center;
+   padding: 15px;
+}   
+form{
+
+    width:600px;
+    margin: 0 auto;
+    padding:3rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #aca9dd;
+    display: grid;
+    grid-gap:15px;
+   
+}
+button{
+    background-color: rgb(33, 33, 85);
+    color: #efeff5;
+    border: none;
+     width: 50%;
+    height: auto;
+    border-radius: 5rem ;
+    padding:0.5rem;
+    font-size: 1.2rem;
+    margin-left: 100px;   
+
+}
+
+.num{
+    color: rgb(1, 12, 10);
+    font-weight: bold;
+    font-size:20px;
+}
