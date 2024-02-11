@@ -72,17 +72,17 @@ article{
     color: white;
 }
 
-h1{
+.rapid{
     width: 100%;
     display: block;
-    background-color: rgb(0, 0, 0, .8);
+   
     top: 1rem;
     color: white;
     padding: 3rem;
     text-align: center;
 }
 
-h1, article{
+.rapid, article{
     position: absolute;
     
 }
