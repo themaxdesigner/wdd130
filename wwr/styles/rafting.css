@@ -45,6 +45,7 @@ body{
     margin: 0;
     padding: 0;
     max-width:100%;
+    background-color: #9b9696;
 }
 .hero {
     position: relative;
@@ -120,12 +121,13 @@ figure img {
 
  
 footer {
-    background-color: #333;
+    
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #686161;
     
 }
 .history{
