@@ -250,6 +250,113 @@ color: #efeff5;
 }
 .if{
     width: 400px;
-    height: auto;
+    height: auto;}
+    
+/* } home page styling  */
+
+.mainstart{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+     
+    }
+
+
+ .firsttext{
+    position:absolute;
+    color: #ecf1f3;
+    margin-bottom: 300px;
+    font-weight: bolder;
+    font-size: larger;
+
+   
+}
+.homeimage{
+  height: 500px;
+  width: 100%;
+ 
+}
+.secondstage{
+    display: flex;
+ 
+    justify-content: space-around;
+
+ 
+}
+.secimage{
+    width: 500px;
+    height: 300px;
+}
+
+.text {
+    flex-grow: 1;
+/* } /* Allow the text to grow and take available space   */
+
+}
+.check{
+   
+    font-weight: bold;
+    color: white;
+    background-color: rgb(39, 38, 38) ; 
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     
 }
+    
+.review1{
+    border: solid black;
+    width: 250px;
+    height: 190px;
+}
+.review2{
+    border: solid black;
+    width: 250px;
+    height: 190px;
+}
+.review3{
+    border: solid black;
+    width: 250px;
+    height: 170px;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.james{
+ font-weight: bold;
+ font-size: 18px;
+ margin-left: 50px;
+}
+.peace{
+
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.cynthia{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center ;
+    margin-left: 50px;
+}
+.activities{
+    text-decoration: none;
+    border: 12px;
+    background-color: #2b2b2c;
+    color: #9b9696;
+}
+
+    /* border:12px;
+    background-color: #0e1b25;
+    color: white;
+    background-repeat: no-repeat;
+    width: 100px;
+    text-align: center;
+    margin-left: 200px;
+    text-decoration: none; */
