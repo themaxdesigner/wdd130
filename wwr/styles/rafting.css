@@ -413,14 +413,7 @@ color: #efeff5;
     width: 300px;
     height: 200px;
  }
- .book{
-    text-decoration: none;
-margin-left: 70px;
-color: white;
-background-color: rgb(20, 20, 20);
-border: solid rgb(20, 20, 20);
-
- }
+ 
  .upcoming-main{
     display: flex;
     justify-content:space-around;
@@ -429,3 +422,36 @@ border: solid rgb(20, 20, 20);
    
  }
 
+/* table in trips page */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #817979;
+  }
+
+ 
+  
+  .book{
+    text-decoration: none;
+    margin: 20px;
+    margin-left: 400px;
+    color: white;
+    background-color: #0e1b25;
+ 
+  }
+
+ .book:hover{
+    background-color: #175a8d;
+ }
