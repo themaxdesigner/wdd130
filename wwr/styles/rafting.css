@@ -17,7 +17,10 @@
     padding: 0;
     max-width: 100%;
 }
-
+header, main, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 header{
     padding: 20px;
     background-color: var(--accent1-color) ;
@@ -545,4 +548,12 @@ table {
 
  .book:hover{
     background-color: #175a8d;
+ }
+ .wireframe{
+    text-decoration: none;
+    color: #07324e;
+ }
+ .wireframe:hover{
+    color: #0e1b25;
+  
  }
